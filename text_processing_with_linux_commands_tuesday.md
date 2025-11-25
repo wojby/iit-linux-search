@@ -9,7 +9,11 @@ Example:
 
 ![task 0](task0.png)
 
+![task 0](image.png)
+
 **Explanation** Write the explanation why the specific command was used.
+
+wc (word count) command is counting data in the file. -l tells wc to output counted lines.
 
 Example: wc command is to count data in a given file. -l parameter is for counting lines.
 
