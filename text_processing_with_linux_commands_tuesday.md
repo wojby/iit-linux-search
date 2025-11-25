@@ -113,7 +113,11 @@ cut is used to extract sections from each line. -d specifies which delimiter is 
 Put screenshot from Codespaces illustrating the result here.
 Correct screenshot should contain your github username in the shell, a command and the result.
 
+![task8](image-8.png)
+
 **Explanation** Write the explanation why the specific command was used.
+
+cut is used to extract sections from each line. -d specifies which delimiter is used. -f5 says that 5th column is where the program should look. sort -n sorts numerically. uniq filters adjacent matching lines and -c counts occurences. sort -nr sorts in reverse order, so the most frequent results are on top.
 
 ---
 
@@ -122,6 +126,10 @@ Correct screenshot should contain your github username in the shell, a command a
 Put screenshot from Codespaces illustrating the result here.
 Correct screenshot should contain your github username in the shell, a command and the result.
 
+![task9](image-9.png)
+
 **Explanation** Write the explanation why the specific command was used.
+
+cut is used to extract sections from each line. -d specifies which delimiter is used. -f4 says that 4th column is where the program should look. sort -n sorts numerically. uniq filters adjacent matching lines. grep -c counts and outputs the number of the lines that contain user.
 
 ---
